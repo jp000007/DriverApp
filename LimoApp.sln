@@ -3,20 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{EA31BE90-C334-408B-875F-039173788E68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "API\API.csproj", "{EA31BE90-C334-408B-875F-039173788E68}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{620E43F1-13B1-4BB0-BABF-0770763F6E4F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{EA31BE90-C334-408B-875F-039173788E68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EA31BE90-C334-408B-875F-039173788E68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA31BE90-C334-408B-875F-039173788E68}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA31BE90-C334-408B-875F-039173788E68}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C4A82EA-A88D-4C16-B9E2-8333BC2784B3}
 	EndGlobalSection
 EndGlobal
